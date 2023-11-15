@@ -31,6 +31,19 @@ header {
     border: 1px solid gray;
     border-radius: 8px;
     font-size: 16px;
+    background-color:#e9e9ed;
+}
+select{
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color:#e9e9ed;
+}
+.btn-container span {
+    font-size: 20px;
 }
 /* MAIN */
 main{
