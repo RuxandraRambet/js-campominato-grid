@@ -61,12 +61,8 @@ main{
     flex-wrap: wrap;
     align-content: flex-start;
 }
-.hidden {
-    visibility: hidden;
-}
+
 .cell{
-    width: calc(100% / 10);
-    height: calc(100% / 10);
     border: 1px solid black;
     background-color:#7fffd4;
     display: flex;
@@ -77,8 +73,17 @@ main{
 .active-cell{
     background-color: #78acf4;
 }
-.d-none{
-    display: none;
+.cell-10 {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+.cell-9{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+.cell-7{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
 }
 /* FOOTER */
 footer {
